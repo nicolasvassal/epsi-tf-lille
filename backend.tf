@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-state-skhedim"
+    bucket = "bucket-s3-nvl"
     key    = "epsi-tf-lille/terraform.tfstate"
     region = "us-east-1"
   }
